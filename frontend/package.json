@@ -1,0 +1,24 @@
+{
+    "name": "generator-tool",
+    "version": "0.0.1",
+    "main": "src/main.js",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "serve": "vue-cli-service build --target lib --name generator src/main.js --mode production  --watch",
+        "build": "vue-cli-service build --target lib --name generator src/main.js"
+    },
+    "peerDependencies": {
+        "vue": "^2.6.*",
+        "@superv/ui": "*"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.3",
+        "@vue/cli-service": "^3.0.3",
+        "vue-template-compiler": "^2.6.*"
+    }
+}

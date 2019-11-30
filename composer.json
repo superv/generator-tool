@@ -1,0 +1,18 @@
+{
+    "name": "superv/generator",
+    "type": "superv-tool",
+    "autoload": {
+        "psr-4": {
+            "SuperV\\Tools\\Generator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Generator\\": "tests/Generator"
+        }
+    },
+    "require": {
+        "superv/platform": "*"
+    }
+}
+
